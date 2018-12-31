@@ -1,5 +1,7 @@
 # Tour of Golang
 
+A Tour of Golang - First learning Go Programming Language
+
 [The tour of Golang](https://tour.golang.org)
 
 ## Quickstart
