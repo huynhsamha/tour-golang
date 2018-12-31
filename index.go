@@ -8,5 +8,6 @@ func main() {
 	// main_func_closures()
 	// main_fibo()
 	// main_pow()
-	main_struct()
+	// main_struct()
+	main_interface()
 }
