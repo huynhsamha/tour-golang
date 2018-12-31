@@ -9,5 +9,6 @@ func main() {
 	// main_fibo()
 	// main_pow()
 	// main_struct()
-	main_interface()
+	// main_interface()
+	main_embedding()
 }
