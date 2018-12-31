@@ -24,7 +24,7 @@ func LogArray(a []string) {
 	}
 }
 
-func main() {
+func main_array() {
 
 	// Create array of string
 	a := []string{"a", "b", "c", "d", "e", "f"}
