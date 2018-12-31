@@ -8,6 +8,33 @@ A Tour of Golang - First learning Go Programming Language
 
 [The Go Playground - Available for share](https://play.golang.org/)
 
+## Notes when install and setup Go - IMPORTANTS
+
+### On MaxOS/Linux
+#### Installation
+Follow the instructions for your platform to install the Go tools: https://golang.org/doc/install#install. It is recommended to use the default installation settings.
+
+On Mac OS X and Linux, by default Go is installed to directory `/usr/local/go/`, and the GOROOT environment variable is set to `/usr/local/go/bin`.
+
+#### Set your GOPATH
+Your Go working directory (GOPATH) is where you store your Go code. It can be any path you choose but must be separate from your Go installation directory (GOROOT).
+
+The following instructions describe one way you can set your GOPATH. Refer to the official Go documentation for more details: https://golang.org/doc/code.html.
+
+**Mac OS X and Linux**
+
+Set the `GOPATH` environment variable for your workspace:
+```bash
+export GOPATH=$HOME/go
+```
+
+Also set the `GOPATH/bin` variable, which is used to run compiled Go programs.
+```bash
+export PATH=$PATH:$GOPATH/bin
+```
+
+### On Windows
+
 ## Quickstart
 
 ### Run single file
@@ -37,6 +64,9 @@ This command is similar with build package and run the executable file. It will 
 
 
 ## Golang topics 
++ [Variable - Function declaration](./var_func.go)
++ [For](./for.go)
++ [If](./if.go)
 + [Array](./array.go)
 + [Map](./map.go)
 + [Map with interface](./map_interface.go)

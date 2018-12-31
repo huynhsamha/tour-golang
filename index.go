@@ -1,6 +1,9 @@
 package main
 
 func main() {
+	// main_variable()
+	// main_for()
+	// main_if()
 	// main_array()
 	// main_map()
 	// main_map_interface()
