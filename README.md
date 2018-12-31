@@ -4,6 +4,10 @@ A Tour of Golang - First learning Go Programming Language
 
 [The tour of Golang](https://tour.golang.org)
 
+## Go Playground - Online Editor
+
+[The Go Playground - Available for share](https://play.golang.org/)
+
 ## Quickstart
 
 ### Run single file
@@ -33,20 +37,20 @@ This command is similar with build package and run the executable file. It will 
 
 
 ## Golang topics 
-+ [Array]("./array.go")
-+ [Map]("./map.go")
-+ [Map with interface]("./map_interface.go")
-+ [Function as values]("./func_values.go")
-+ [Function as closures]("./func_closures.go")
-+ [Interface]("./interface.go")
-+ [Struct]("./struct.go")
-+ [Example Fibonaci]("./fibo.go")
-+ [Example Power]("./pow.go")
++ [Array](./array.go)
++ [Map](./map.go)
++ [Map with interface](./map_interface.go)
++ [Function as values](./func_values.go)
++ [Function as closures](./func_closures.go)
++ [Interface](./interface.go)
++ [Struct](./struct.go)
++ [Example Fibonaci](./fibo.go)
++ [Example Power](./pow.go)
 
 ## OOP in Golang
 
-[Detail]("./OOP.md")
+[Detail](./OOP.md)
 
 ## DEP - Dependency Pakage Management Go
 
-[Detail]("./DEP.md")
+[Detail](./DEP.md)
