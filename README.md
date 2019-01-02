@@ -132,6 +132,8 @@ func todo() {
 + [Exported modules in package](./packages)
 + [Error return](./return_error/return_error.go')
 + [JWT - jwt-go Golang JSON Web Token](./jwt-go/jwt-go.go)
++ [Crypto (SHA256, MD5, ...)](./crypto)
++ [Random Numbers](./random_numbers/random_numbers.go)
 
 ## OOP in Golang
 
