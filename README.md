@@ -8,6 +8,7 @@ A Tour of Golang - First learning Go Programming Language
 
 [The Go Playground - Available for share](https://play.golang.org/)
 
+
 ## Notes when install and setup Go - IMPORTANTS
 
 ### On MaxOS/Linux
@@ -139,3 +140,6 @@ func todo() {
 ## DEP - Dependency Pakage Management Go
 
 [Detail](./DEP.md)
+
+## Best Documents
++ Go by Examples: https://gobyexample.com/
