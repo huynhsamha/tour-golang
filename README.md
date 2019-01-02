@@ -130,7 +130,7 @@ func todo() {
 + [Same type in struct declaration](./same_type_in_struct/same_type_in_struct.go')
 + [Exported modules in package](./packages)
 + [Error return](./return_error/return_error.go')
-+ [JWT - Golang JSON Web Token](./jwt/jwt.go)
++ [JWT - jwt-go Golang JSON Web Token](./jwt-go/jwt-go.go)
 
 ## OOP in Golang
 
