@@ -22,7 +22,7 @@ func getFunction(operator string) func(int, int) int {
 	}
 }
 
-func LogFunc(a, b int, op string) {
+func logFunc(a, b int, op string) {
 	f := getFunction(op)
 	if f == nil {
 		fmt.Println("Can't execute operator " + op)
@@ -31,14 +31,14 @@ func LogFunc(a, b int, op string) {
 	}
 }
 
-func main_func_closures() {
+func main() {
 	a := 8
 	b := 2
-	LogFunc(a, b, "+")
-	LogFunc(a, b, "-")
-	LogFunc(a, b, "*")
-	LogFunc(a, b, "/")
-	LogFunc(a, b, "%")
+	logFunc(a, b, "+")
+	logFunc(a, b, "-")
+	logFunc(a, b, "*")
+	logFunc(a, b, "/")
+	logFunc(a, b, "%")
 }
 
 /**** Results ****

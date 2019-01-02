@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func LogMap(m map[string]int) {
+func logMap(m map[string]int) {
 	for key, val := range m {
 		fmt.Println(key, val)
 	}
@@ -24,7 +24,7 @@ func TestExist(m map[string]int, key string) {
 	fmt.Println(val, exist)
 }
 
-func main_map() {
+func main() {
 
 	// Create new map string -> int
 	m := make(map[string]int)
@@ -32,7 +32,7 @@ func main_map() {
 	m["b"] = 20
 	m["c"] = 30
 
-	LogMap(m)
+	logMap(m)
 
 	TestExist(m, "a") // 10, true
 	TestExist(m, "t") // 0, false

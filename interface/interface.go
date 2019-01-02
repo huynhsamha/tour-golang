@@ -34,7 +34,7 @@ func (cat Cat) Voice() string {
 	return "Meow"
 }
 
-func main_interface() {
+func main() {
 	myPets := []Animal{
 		Dog{},
 		Dog{},

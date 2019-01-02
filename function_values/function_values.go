@@ -17,7 +17,7 @@ func ajax(url string, method string, cb func(err interface{}, data string)) {
 	fmt.Println("AJAX: end")
 }
 
-func main_func_values() {
+func main() {
 
 	// Pass alias function to parameter of a function
 	ajax("http://ajax.io", "POST", func(err interface{}, data string) {

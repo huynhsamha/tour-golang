@@ -63,21 +63,74 @@ go run *.go
 This command is similar with build package and run the executable file. It will link files `.go` and run them.
 
 
+## Notes with packages in Golang
+### Package declaration
+In a directory, one package is declared at the same level. If we want to create another package, create sub-folder and declare with new package for subfolder.
+
+Name of package should be name of directory.
+
+### Export modules (type, struct, interface, function, variable) from pacakge
+Golang uses first character with capitalized (from `A-Z`) is exported, that means other package can read.
+
+Example in [directory packages](./packages)
+
+```go
+package A
+// Foo : exported function, should be comment by go-lint
+func Foo() {}
+func bar() {
+	// this is private in package A, but other file in package A can use bar()
+}
+// Animal : type animal is exported, shoul be comment by go-lint
+type Animal struct {
+	a string // that is private
+	B int    // that is exported, that mean public
+}
+```
+
+And in package B
+
+```go
+package B
+
+import "github.com/huynhsamha/tour-golang/packages/A"
+
+func todo() {
+	A.Foo() // OK
+
+	// A.bar()
+	// cannot refer to unexported name A.bar
+
+	// x := A.Animal{"123", 4}
+	// implicit assignment of unexported field 'a' in A.Animal literal
+
+	x := A.Animal{B: 123}
+	// x.a = "123"
+	// x.a undefined (cannot refer to unexported field or method a)
+
+	x.B = 123
+}
+```
+
+
 ## Golang topics 
-+ [Variable - Function declaration](./var_func.go)
-+ [For](./for.go)
-+ [If](./if.go)
-+ [Array](./array.go)
-+ [Map](./map.go)
-+ [Map with interface](./map_interface.go)
-+ [Function as values](./func_values.go)
-+ [Function as closures](./func_closures.go)
-+ [Interface](./interface.go)
-+ [Struct](./struct.go)
-+ [Example Fibonaci](./fibo.go)
-+ [Example Power](./pow.go)
-+ [Spread (...) - Unpacking array to arguments](./spread.go)
-+ [Same type in struct declaration](./same_type_in_struct.go)
++ [Variable - Function declaration](./variable_function_declare/variable_function_declare.go)
++ [For Statement](./for_statement/for_statement.go)
++ [If Statement]('./if_statement/if_statement.go)
++ [Array]('./array/array.go)
++ [Map]('./map/map.go)
++ [Map with interface]('./map_interface/map_interface.go)
++ [Function as values]('./function_values/function_values.go)
++ [Function as closures]('./function_closures/function_closures.go)
++ [Interface]('./interface/interface.go)
++ [Struct]('./struct/struct.go)
++ [Example Fibonaci]('./fibonacci/fibonacci.go)
++ [Example Power]('./power/power.go)
++ [Spread (...) - Unpacking array to arguments]('./spread_operator/spread_operator.go')
++ [Same type in struct declaration]('./same_type_in_struct/same_type_in_struct.go')
++ [Exported modules in package]('./packages)
++ [Error return]('./return_error/return_error.go')
++ [JWT - JSON Web Token]('./jwt/jwt.go)
 
 ## OOP in Golang
 

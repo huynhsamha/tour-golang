@@ -12,7 +12,7 @@ func fibo_array(n int) []int {
 	return f
 }
 
-func main_fibo() {
+func main() {
 	n := 10
 
 	fmt.Println(fibo_array(n))

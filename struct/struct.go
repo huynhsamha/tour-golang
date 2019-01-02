@@ -51,7 +51,7 @@ func (user *User) addPost(post *Post) {
 	user.Posts = append(user.Posts, post)
 }
 
-func main_struct() {
+func main() {
 	posts := []Post{
 		Post{101, "Post 1", "Lorem Isum 1", nil},
 		Post{102, "Post 2", "Lorem Isum 2", nil},

@@ -32,7 +32,7 @@ var o, k = 5, 6
 
 // p := 1 // error syntax, global scope require var
 
-func main_variable() {
+func main() {
 	fmt.Println("Hello Golang")
 	fmt.Println("Now is  : ", time.Now())
 	fmt.Println("Random  : ", rand.Intn(15))

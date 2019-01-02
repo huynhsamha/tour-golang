@@ -23,7 +23,7 @@ type SimplyType struct {
 	a, b, c, d, e, f BasicType
 }
 
-func main_same_type_in_struct() {
+func main() {
 	x := BasicType{}
 
 	y := ComplicatedType{x, x, x, x, x, x}

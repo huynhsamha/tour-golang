@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main_map_interface() {
+func main() {
 
 	m := map[string]interface{}{
 		"Id":       10005,

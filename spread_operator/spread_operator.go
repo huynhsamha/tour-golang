@@ -18,7 +18,7 @@ func sum(args ...int) int {
 	return sum
 }
 
-func main_spread() {
+func main() {
 
 	arr := []int{2, 4, 6, 8}
 
