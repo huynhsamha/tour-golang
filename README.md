@@ -134,6 +134,7 @@ func todo() {
 + [JWT - jwt-go Golang JSON Web Token](./jwt-go/jwt-go.go)
 + [Crypto (SHA256, MD5, ...)](./crypto)
 + [Random Numbers](./random_numbers/random_numbers.go)
++ [Random Hex, String,... Simple](./random_string/random_string.go)
 
 ## OOP in Golang
 
