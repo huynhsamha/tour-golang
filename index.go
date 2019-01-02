@@ -13,4 +13,5 @@ func main() {
 	// main_pow()
 	// main_struct()
 	// main_interface()
+	// main_spread()
 }
