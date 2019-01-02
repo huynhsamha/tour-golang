@@ -77,6 +77,7 @@ This command is similar with build package and run the executable file. It will 
 + [Example Fibonaci](./fibo.go)
 + [Example Power](./pow.go)
 + [Spread (...) - Unpacking array to arguments](./spread.go)
++ [Same type in struct declaration](./same_type_in_struct.go)
 
 ## OOP in Golang
 

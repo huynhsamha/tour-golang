@@ -14,4 +14,5 @@ func main() {
 	// main_struct()
 	// main_interface()
 	// main_spread()
+	// main_same_type_in_struct()
 }
