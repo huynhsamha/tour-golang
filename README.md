@@ -136,6 +136,7 @@ func todo() {
 + [Crypto (SHA256, MD5, ...)](./crypto)
 + [Random Numbers](./random_numbers/random_numbers.go)
 + [Random Hex, String,... Simple](./random_string/random_string.go)
++ [Go Routine](./goroutines/goroutines.go)
 
 ## OOP in Golang
 
