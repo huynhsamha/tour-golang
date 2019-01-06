@@ -133,6 +133,7 @@ func todo() {
 + [Exported modules in package](./packages)
 + [Sortings](./sortings)
 + [Error return](./return_error/return_error.go)
++ [Read / Write files](./files)
 + [JWT - jwt-go Golang JSON Web Token](./jwt-go/jwt-go.go)
 + [Crypto (SHA256, MD5, ...)](./crypto)
 + [Random Numbers](./random_numbers/random_numbers.go)
