@@ -150,6 +150,3 @@ func todo() {
 
 ## Best Documents
 + Go by Examples: https://gobyexample.com/
-
-## Interview Problems Solving by Golang
-This is my source code contain my solution for interview problems using Golang: [here](./interview_problems)
