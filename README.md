@@ -118,6 +118,7 @@ func todo() {
 + [Variable - Function declaration](./variable_function_declare/variable_function_declare.go)
 + [For Statement](./for_statement/for_statement.go)
 + [If Statement](./if_statement/if_statement.go)
++ [Switch Statement](./switch/switch.go)
 + [Array](./array/array.go)
 + [Map](./map/map.go)
 + [Map with interface](./map_interface/map_interface.go)
