@@ -148,5 +148,6 @@ func todo() {
 
 [Detail](./DEP.md)
 
-## Best Documents
+## Best Documents or References
 + Go by Examples: https://gobyexample.com/
++ Go Bootcamp: http://www.golangbootcamp.com/book
